@@ -1,4 +1,4 @@
-FROM viljaste/supervisor:latest
+FROM viljaste/supervisor:debian-wheezy
 
 MAINTAINER Jürgen Viljaste <j.viljaste@gmail.com>
 
