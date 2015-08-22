@@ -1,4 +1,4 @@
-FROM viljaste/supervisor:debian-wheezy
+FROM dockerizedrupal/supervisor:debian-wheezy
 
 MAINTAINER Jürgen Viljaste <j.viljaste@gmail.com>
 
