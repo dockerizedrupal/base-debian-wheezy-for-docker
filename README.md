@@ -5,7 +5,8 @@
     TMP="$(mktemp -d)" \
       && git clone https://github.com/dockerizedrupal/docker-base-debian-wheezy.git "${TMP}" \
       && cd "${TMP}" \
-      && sudo docker build -t dockerizedrupal/base-debian-wheezy:latest . \
+      && git checkout 1.0.0 \
+      && sudo docker build -t dockerizedrupal/base-debian-wheezy:1.0.0 . \
       && cd -
 
 ## License
