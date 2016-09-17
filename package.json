@@ -1,9 +1,9 @@
 {
-  "name": "docker-base-debian-wheezy",
-  "version": "1.1.1",
+  "name": "base-debian-wheezy-for-docker",
+  "version": "2.0.0",
   "repository": {
     "type": "git",
-    "url": "https://github.com/dockerizedrupal/docker-base-debian-wheezy.git"
+    "url": "https://github.com/dockerizedrupal/base-debian-wheezy-for-docker.git"
   },
   "license": "MIT",
   "dependencies": {

@@ -1,4 +1,4 @@
-VERSION = "1.1.1"
+VERSION = "2.0.0"
 
 required_plugins = %w(vagrant-vbguest)
 
@@ -14,7 +14,7 @@ Vagrant.configure("2") do |config|
   config.vm.hostname = "base-debian-wheezy"
 
   config.vm.provider "virtualbox" do |v|
-    name = "dockerizedrupal-docker-base-debian-wheezy-" + VERSION
+    name = "dockerizedrupal-base-debian-wheezy-for-docker-" + VERSION
 
     name.gsub!(".", "-")
 
